@@ -1,9 +1,9 @@
 # Task Scheduling and Memory Management
 
-## 📌 Descrição
+## Descrição
 O **tsmm** é um programa em C que simula o escalonamento de tarefas e a gerência de memória em um sistema computacional. Utiliza o algoritmo de escalonamento **Round-Robin** e gerencia a memória utilizando **paginação simples**.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 - Escalonamento de tarefas utilizando **Round-Robin**.
 - Gerenciamento de memória com **paginação simples**.
 - Simulação de instruções de:
@@ -15,12 +15,11 @@ O **tsmm** é um programa em C que simula o escalonamento de tarefas e a gerênc
   - Taxa de ocupação da CPU e do disco.
   - Mapeamento dos endereços lógicos e físicos das alocações de memória.
 
-## 📂 Estrutura dos Arquivos
+## Estrutura dos Arquivos
 - `tsmm.c`: Código-fonte principal do programa.
 - `tsmm.h`: Arquivo de cabeçalho.
 
-## 🖥️ Como Compilar e Executar
-### 🔧 Compilação
+## Compilar e Executar
 Para compilar o programa, utilize o `gcc` no Linux:
 ```sh
 gcc -o tsmm tsmm.c
